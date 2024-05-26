@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sweet Alert z-index */
+.swal2-container {
+    z-index: 2000 !important;
+  }
+  
+
+
+input:focus:invalid{
+
+  border:1px solid rgb(243, 82, 82);
+}
+
+input.inputError,
+select.inputError{
+
+border-color: rgb(243, 82, 82);
+}
+
+
+
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    #aaaaab;
+ font-size: 1rem;
+}
+
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.5rem;
+  font-size: larger;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.5rem;
+  font-size: larger;
+}
